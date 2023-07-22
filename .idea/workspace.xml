@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49283ab1-8d87-4cd4-bfdc-dc57e093aff4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/ActorBehaivour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/MarketBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/QueueBahaivour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StreamComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StreamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StudentGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/StudentGroupService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
