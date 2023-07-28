@@ -6,9 +6,20 @@ public class StudentGroup {
     private Teacher teacher;
     private List<Student> students;
 
-    public StudentGroup(Teacher teacher, List<Student> studentList) {
+    private int studentsGroupId;
+
+    public StudentGroup(int studentsGroupId, Teacher teacher, List<Student> studentList) {
+        this.studentsGroupId = studentsGroupId;
         this.teacher = teacher;
         this.students = studentList;
+    }
+
+    public int getStudentsGroupId() {
+        return studentsGroupId;
+    }
+
+    public void setStudentsGroupId(int studentsGroupId) {
+        this.studentsGroupId = studentsGroupId;
     }
 
     public Teacher getTeacher() {

@@ -5,7 +5,6 @@ import homework5.service.DataService;
 import homework5.service.StudentGroupService;
 import homework5.view.StudentView;
 
-import javax.swing.text.View;
 import java.util.List;
 
 public class Controller {
@@ -27,12 +26,8 @@ public class Controller {
         return students;
     }
 
-    public Teacher getTeacher() {
-        return studentGroupService.getTeacher();
-    }
-
-    public void createStudentGroup(){
-        studentGroupService.createStudentGroup(getTeacher(), getAllStudents());
+    public void createStudentGroup(Teacher teacher, List<Student> students){
+        studentGroupService.createStudentGroup(teacher, students);
     }
 
 }
