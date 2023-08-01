@@ -21,4 +21,9 @@ public class TeacherController implements IUserController<Teacher>{
     public void getAllTeachers() {
         teacherView.sendOnConsole(teacherService.getAllTeachers());
     }
+
+    /*
+    здесь мы используем первый принцип SOLID, так как данный класс может измениться по 2 причинам, если поменяется
+    логика создания и/или редактирования учителя, эта логика выделена в отдельный класс
+     */
 }

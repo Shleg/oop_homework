@@ -5,7 +5,6 @@ import homework4.data.Teacher;
 import java.util.List;
 
 public class TeacherService {
-
     private List<Teacher> teacherList;
     public void create(String name, String surname) {
         Teacher teacher = new Teacher(name, surname);

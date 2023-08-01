@@ -11,4 +11,8 @@ public class UserComparator<T extends User> implements Comparator<T> {
         }
         return resultOfComparing;
     }
+    /*
+    в методе compare можно продемострировать третий принцип SOLID, так как при подстановке дочерних классов Студент или
+    Учитель метод отработает корректно
+     */
 }

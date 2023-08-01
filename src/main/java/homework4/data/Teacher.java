@@ -14,6 +14,10 @@ public class Teacher extends User {
         super(name, surname);
         this.subject = subject;
     }
+    /*
+    в конструкторе Teacher мы демонстрируем второй принцип. Свойства имя и фамилия не изменяются, то есть закрыты для
+    модификации, тем не менее класс расширяется за счет нового свойства Предмет.
+     */
     public String getSubject() {
         return subject;
     }
