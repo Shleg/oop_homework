@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49283ab1-8d87-4cd4-bfdc-dc57e093aff4" name="Changes" comment="" />
+    <list default="true" id="49283ab1-8d87-4cd4-bfdc-dc57e093aff4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/logger/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/model/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/presenter/CalculatorPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/presenter/ConcreteCalculatorPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/view/CalculatorActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/view/CalculatorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,12 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/shleg/Library/CloudStorage/OneDrive-Personal/Education/GeekBrains/ООП/Семинары/homework"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework4.Program" />
